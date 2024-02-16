@@ -16,8 +16,8 @@ export const MovieCard = ({
             <div className="summary">
                 <div>{title}</div>
                 <div className="stars">
-                    {Array(nbStars).fill(nbStars).map((_, index) => (
-                        <StarOutlinedIcon className="star__icon" key={index} />
+                    {Array(nbStars).fill(nbStars).map((el, index) => (
+                        <StarOutlinedIcon className="star__icon" key={el+index} />
                     ))}
                 </div>
                 <div className="info">
