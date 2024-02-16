@@ -1,0 +1,9 @@
+.right_main {
+    display: none;
+    background-color: #101316;
+
+    @media screen and (min-width: 768px) {
+        flex: 0.3;
+		display: block;
+    }
+}

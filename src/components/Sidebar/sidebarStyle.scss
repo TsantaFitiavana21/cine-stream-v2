@@ -1,0 +1,38 @@
+.side_main {
+    flex: 0.1;
+    background-color: #181b1d;
+    color: #9E9FA0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+
+    @media screen and (min-width: 768px) {
+        flex: 0.3;
+        display: block;
+    }
+
+    .expand {
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    .title {
+        display: none;
+        margin: 1rem;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+            margin-top: 2rem;
+        }
+    }
+
+    .expand {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+        ;
+    }
+}
