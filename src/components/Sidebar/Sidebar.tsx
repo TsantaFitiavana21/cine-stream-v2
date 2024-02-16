@@ -13,6 +13,15 @@ import "./sidebarStyle.scss"
 export const Sidebar = () => {
     return (
         <div className="side_main">
+            <div className="logo">
+                <span className="partOne">Cine</span>
+                <span className="partTwo">Stream</span>
+            </div>
+
+            <div className="logo_mobile">
+                <span className="partOne">C</span>
+                <span className="partTwo">S</span>
+            </div>
 
             <div className="menu_container">
                 <div className="title">Menu</div>

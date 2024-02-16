@@ -8,6 +8,33 @@
     gap: 1rem;
     font-size: 0.9rem;
 
+    .logo {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+            margin: 1rem;
+            font-size: 1.75rem;
+
+            .partTwo {
+                color: #FC1119
+            }
+        }
+    }
+
+    .logo_mobile {
+        margin: 10px;
+        font-size: 1.4rem;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        .partTwo {
+            color: #FC1119
+        }
+    }
+
     @media screen and (min-width: 768px) {
         flex: 0.3;
         display: block;
